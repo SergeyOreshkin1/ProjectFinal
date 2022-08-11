@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="episodes">Эпизоды</string>
+    <string name="characters">Персонажи</string>
+    <string name="locations">Локации</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="location_fragment">location fragment</string>
+    <string name="characters_fragment">characters fragment</string>
+    <string name="episodes_fragment">episodes fragment</string>
+    <string name="requestErrorMessage">Request Error</string>
+    <string name="name">Имя:\ </string>
+    <string name="species">Вид:\ </string>
+    <string name="status">Статус:\ </string>
+    <string name="gender">Пол:\ </string>
+    <string name="episodeName">Название:\ </string>
+    <string name="episodeNumber">Номер:\ </string>
+    <string name="airDate">Дата релиза:\ </string>
+    <string name="locationName">Локация:\ </string>
+    <string name="type">Тип:\ </string>
+    <string name="dimension">Измерение:\ </string>
+</resources>

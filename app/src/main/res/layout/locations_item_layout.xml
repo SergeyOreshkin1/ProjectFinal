@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/radius"
+    android:layout_margin="@dimen/margin"
+    android:backgroundTint="@color/purple_700">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/locationName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/locationName"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/margin"
+            android:textSize="@dimen/textSize"/>
+        <TextView
+            android:id="@+id/locationType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type"
+            android:textColor="@color/white"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"
+            android:textSize="@dimen/textSize"/>
+        <TextView
+            android:id="@+id/locationDimension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dimension"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/margin"
+            android:textSize="@dimen/textSize"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
